@@ -97,9 +97,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 24.25, 152.0, 125.0, 22.0 ],
+					"patching_rect" : [ 24.25, 152.0, 178.0, 22.0 ],
 					"style" : "",
-					"text" : "buffer~ son2 141.wav"
+					"text" : "buffer~ #0-audio #1"
 				}
 
 			}
@@ -123,7 +123,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 381.0, 40.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -187,7 +187,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 503.0, 47.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -201,7 +201,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 242.0, 40.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -290,9 +290,9 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 283.25, 360.0, 94.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 283.25, 360.0, 118.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -300,8 +300,8 @@
 						"loopend" : [ 0.0, "ms" ],
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
-						"originallength" : [ 2213.790527, "ticks" ],
-						"originaltempo" : 70.622231,
+						"originallength" : [ 0.0, "ticks" ],
+						"originaltempo" : 120.0,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -309,7 +309,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "groove~ son2 2"
+					"text" : "groove~ #0-audio"
 				}
 
 			}
@@ -395,7 +395,8 @@
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 2 ]
+					"order" : 0,
+					"source" : [ "obj-2", 1 ]
 				}
 
 			}
@@ -413,6 +414,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-2", 1 ]
 				}
 
