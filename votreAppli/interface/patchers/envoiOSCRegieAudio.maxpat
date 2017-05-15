@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 227.0, 1610.0, 465.0 ],
+		"rect" : [ 104.0, 425.0, 1610.0, 465.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -81,17 +81,6 @@
 					"patching_rect" : [ 193.0, 33.0, 43.5, 20.0 ],
 					"style" : "",
 					"text" : "Son 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 805.0, 232.5, 150.0, 20.0 ],
-					"style" : ""
 				}
 
 			}
