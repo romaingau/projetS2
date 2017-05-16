@@ -2,8 +2,8 @@
 	"name" : "lecteurVidéo1",
 	"version" : 1,
 	"creationdate" : -717269629,
-	"modificationdate" : -717260335,
-	"viewrect" : [ 123.0, 180.0, 300.0, 500.0 ],
+	"modificationdate" : -717192187,
+	"viewrect" : [ 125.0, 288.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -15,20 +15,20 @@
 				"local" : 1
 			}
 ,
+			"effetVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"rotation.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"main.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"routerAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"analyseAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 ,
 			"detectionEnveloppe.maxpat" : 			{
@@ -41,7 +41,22 @@
 				"local" : 1
 			}
 ,
-			"effet delacement.maxpat" : 			{
+			"routerAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"effetDeplacement.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"analyseAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"assemblage.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -49,12 +64,17 @@
 		}
 ,
 		"media" : 		{
-			"homme-avec-la-fourche.jpg" : 			{
+			"hanzo.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
-			"hqdefault.jpg" : 			{
+			"torbjorn.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"homme-avec-la-fourche.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
