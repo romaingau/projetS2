@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717267525,
+	"modificationdate" : -717197926,
 	"viewrect" : [ 43.0, 155.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -17,6 +17,16 @@
 			}
 ,
 			"lecteurAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"syntheseFM.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"syntheseSoustractive.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
