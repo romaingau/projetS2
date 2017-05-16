@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717191964,
+	"modificationdate" : -717190714,
 	"viewrect" : [ 43.0, 155.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -47,6 +47,16 @@
 			}
 ,
 			"HUMAIN_BRUITAGE_BOUCHE_CRI_REPLIQUE_01.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"EffetAudio1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"EffetAudio2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

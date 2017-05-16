@@ -38,6 +38,42 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 475.5, 357.0, 114.0, 22.0 ],
+					"style" : "",
+					"text" : "EffetAudio2.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 268.5, 357.0, 114.0, 22.0 ],
+					"style" : "",
+					"text" : "EffetAudio1.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 49.0, 357.0, 140.0, 22.0 ],
+					"style" : "",
+					"text" : "SyntheseSonore.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
@@ -77,18 +113,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 88.0, 260.0, 45.0, 45.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 51.0, 347.0, 140.0, 22.0 ],
-					"style" : "",
-					"text" : "SyntheseSonore.maxpat"
 				}
 
 			}
@@ -474,6 +498,11 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-12::obj-53::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-12::obj-53::obj-13" : [ "flonum", "flonum", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "lecteurAudio.maxpat",
 				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
@@ -494,6 +523,54 @@
 			}
 , 			{
 				"name" : "simpleFM~.maxpat",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "EffetAudio1.maxpat",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pedaleWahWah.maxpat",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "social.aif",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/media",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "EffetAudio2.maxpat",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tremolo.maxpat",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "osc.maxpat",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tremolo2.maxpat",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "detectionEnveloppe.maxpat",
 				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
