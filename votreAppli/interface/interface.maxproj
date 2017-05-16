@@ -2,7 +2,7 @@
 	"name" : "interface",
 	"version" : 1,
 	"creationdate" : -721918974,
-	"modificationdate" : -717262826,
+	"modificationdate" : -717262047,
 	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -22,6 +22,16 @@
 			}
 ,
 			"receptionOSCRegieAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"envoiOSCRegieVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"receptionOSCRegieVideo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
