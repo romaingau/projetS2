@@ -38,25 +38,38 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-18",
+					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 68.0, 265.0, 114.0, 22.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 279.0, 357.0, 122.0, 22.0 ],
 					"style" : "",
-					"text" : "EffetAudio2.maxpat"
+					"text" : "mixageAudio.maxpat"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-16",
+					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.5, 271.5, 114.0, 22.0 ],
+					"patching_rect" : [ 260.0, 278.0, 114.0, 22.0 ],
 					"style" : "",
 					"text" : "EffetAudio1.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 62.0, 278.0, 114.0, 22.0 ],
+					"style" : "",
+					"text" : "EffetAudio2.maxpat"
 				}
 
 			}
@@ -396,7 +409,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 1 ]
@@ -405,7 +418,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
@@ -432,7 +445,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 1 ],
+					"destination" : [ "obj-28", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 1 ]
@@ -441,7 +454,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
@@ -477,8 +490,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-18::obj-53::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-18::obj-53::obj-13" : [ "flonum", "flonum", 0 ]
+			"obj-28::obj-53::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-10::obj-41" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
+			"obj-28::obj-53::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-10::obj-42" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -501,18 +516,6 @@
 			}
 , 			{
 				"name" : "simpleFM~.maxpat",
-				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "EffetAudio1.maxpat",
-				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pedaleWahWah.maxpat",
 				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -543,6 +546,24 @@
 			}
 , 			{
 				"name" : "detectionEnveloppe.maxpat",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "EffetAudio1.maxpat",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pedaleWahWah.maxpat",
+				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mixageAudio.maxpat",
 				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
