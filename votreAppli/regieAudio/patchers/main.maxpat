@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 549.0, 219.0, 861.0, 480.0 ],
+		"rect" : [ 482.0, 243.0, 861.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,11 +38,11 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-12",
+					"id" : "obj-18",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 475.5, 357.0, 114.0, 22.0 ],
+					"patching_rect" : [ 68.0, 265.0, 114.0, 22.0 ],
 					"style" : "",
 					"text" : "EffetAudio2.maxpat"
 				}
@@ -50,11 +50,11 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-10",
+					"id" : "obj-16",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.5, 357.0, 114.0, 22.0 ],
+					"patching_rect" : [ 268.5, 271.5, 114.0, 22.0 ],
 					"style" : "",
 					"text" : "EffetAudio1.maxpat"
 				}
@@ -90,28 +90,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 501.0, 260.0, 45.0, 45.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 303.0, 260.0, 45.0, 45.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 88.0, 260.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -259,7 +237,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 370.0, 111.0, 24.0, 24.0 ],
+					"patching_rect" : [ 371.0, 111.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -418,7 +396,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 1 ],
+					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 1 ]
@@ -427,7 +405,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
@@ -454,7 +432,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 1 ],
+					"destination" : [ "obj-18", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 1 ]
@@ -463,7 +441,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
@@ -499,8 +477,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-12::obj-53::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-12::obj-53::obj-13" : [ "flonum", "flonum", 0 ]
+			"obj-18::obj-53::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-18::obj-53::obj-13" : [ "flonum", "flonum", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -537,12 +515,6 @@
 				"name" : "pedaleWahWah.maxpat",
 				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "social.aif",
-				"bootpath" : "~/Documents/gitkraken/projetS2/votreAppli/regieAudio/media",
-				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
