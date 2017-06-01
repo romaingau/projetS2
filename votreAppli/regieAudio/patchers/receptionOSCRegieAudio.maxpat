@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -40,6 +40,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-53",
+					"index" : 16,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -52,6 +53,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-52",
+					"index" : 15,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -64,6 +66,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-51",
+					"index" : 14,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -76,6 +79,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
+					"index" : 13,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -88,6 +92,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-49",
+					"index" : 12,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -100,6 +105,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-48",
+					"index" : 11,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -112,6 +118,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-47",
+					"index" : 10,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -124,6 +131,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-46",
+					"index" : 9,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -136,6 +144,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-45",
+					"index" : 8,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -148,6 +157,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-44",
+					"index" : 7,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -160,6 +170,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-43",
+					"index" : 6,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -172,6 +183,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-42",
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -184,10 +196,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-41",
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 472.0, 220.0, 30.0, 30.0 ],
+					"patching_rect" : [ 228.0, 233.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -196,10 +209,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-40",
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 359.0, 220.0, 30.0, 30.0 ],
+					"patching_rect" : [ 115.0, 233.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -208,10 +222,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-39",
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.0, 220.0, 30.0, 30.0 ],
+					"patching_rect" : [ -5.0, 233.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -220,10 +235,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-34",
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.0, 228.0, 30.0, 30.0 ],
+					"patching_rect" : [ -115.0, 241.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -270,7 +286,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 266.0, 39.0, 44.0, 20.0 ],
+					"patching_rect" : [ 22.0, 52.0, 44.0, 20.0 ],
 					"style" : "",
 					"text" : "Son 1"
 				}
@@ -590,7 +606,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 409.0, 123.0, 164.0, 22.0 ],
+					"patching_rect" : [ 165.0, 136.0, 164.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /regieAudio/1/flux"
 				}
@@ -603,7 +619,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 311.0, 91.0, 168.0, 22.0 ],
+					"patching_rect" : [ 67.0, 104.0, 168.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /regieAudio/1/loop"
 				}
@@ -616,7 +632,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 174.0, 123.0, 170.0, 22.0 ],
+					"patching_rect" : [ -70.0, 136.0, 170.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /regieAudio/1/arret"
 				}
@@ -629,7 +645,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 45.0, 78.0, 181.0, 22.0 ],
+					"patching_rect" : [ -199.0, 91.0, 181.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /regieAudio/1/lecture"
 				}
@@ -643,7 +659,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 472.0, 175.0, 24.0, 24.0 ],
+					"patching_rect" : [ 228.0, 188.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -656,7 +672,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 362.0, 175.0, 24.0, 24.0 ],
+					"patching_rect" : [ 118.0, 188.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -668,7 +684,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 242.0, 175.0, 24.0, 24.0 ],
+					"patching_rect" : [ -2.0, 188.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -680,7 +696,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 132.0, 175.0, 24.0, 24.0 ],
+					"patching_rect" : [ -112.0, 188.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -722,6 +738,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 8,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -731,6 +748,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 5,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -740,6 +758,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 6,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -749,6 +768,7 @@
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 7,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -758,6 +778,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 9,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -767,6 +788,7 @@
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -776,6 +798,7 @@
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -785,6 +808,7 @@
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 15,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -794,6 +818,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 14,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -803,6 +828,7 @@
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 13,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -812,6 +838,7 @@
 					"destination" : [ "obj-27", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 12,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -821,6 +848,7 @@
 					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 2,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -830,6 +858,7 @@
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 3,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -839,6 +868,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 10,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -848,6 +878,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 11,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -857,6 +888,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 4,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1131,13 +1163,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

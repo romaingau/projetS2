@@ -199,7 +199,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 16,
-					"outlettype" : [ "bang", "bang", "bang", "int", "bang", "int", "int", "int", "bang", "bang", "int", "int", "bang", "bang", "int", "int" ],
+					"outlettype" : [ "bang", "bang", "int", "int", "bang", "bang", "int", "int", "bang", "bang", "int", "int", "bang", "bang", "int", "int" ],
 					"patching_rect" : [ 416.0, 14.0, 190.0, 22.0 ],
 					"style" : "",
 					"text" : "receptionOSCRegieAudio.maxpat"
@@ -1198,8 +1198,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
