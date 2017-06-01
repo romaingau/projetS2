@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717189003,
+	"modificationdate" : -715820395,
 	"viewrect" : [ 43.0, 155.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -21,17 +21,32 @@
 				"local" : 1
 			}
 ,
-			"mainSyntheseAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"SyntheseSonore.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"syntheseFM.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"EffetAudio2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"EffetAudio1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mixageAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mainSyntheseAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -46,17 +61,12 @@
 				"local" : 1
 			}
 ,
-			"EffetAudio1.maxpat" : 			{
+			"envoiAudioReseau.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"EffetAudio2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"mixageAudio.maxpat" : 			{
+			"receptionOSCRegieAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -64,21 +74,6 @@
 		}
 ,
 		"media" : 		{
-			"HUMAIN_BRUITAGE_BOUCHE_CRI_REPLIQUE_01.wav" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-			"HUMAIN_BRUITAGE_BOUCHE_.DISCLAME_REPLIQUE_02.wav" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-			"HUMAIN_BRUITAGE_BOUCHE_ANNONCE_FIN_03.wav" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
 			"Hanzo.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
@@ -103,6 +98,10 @@
 				"kind" : "audiofile",
 				"local" : 1
 			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 

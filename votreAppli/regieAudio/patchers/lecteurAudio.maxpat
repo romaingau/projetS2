@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 51.0, 120.0, 735.0, 525.0 ],
+		"rect" : [ 523.0, 79.0, 735.0, 525.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -97,7 +97,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 24.25, 152.0, 178.0, 22.0 ],
+					"patching_rect" : [ 24.25, 152.0, 184.0, 22.0 ],
 					"style" : "",
 					"text" : "buffer~ #0-audio #1"
 				}
@@ -123,7 +123,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 381.0, 40.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -187,7 +187,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 503.0, 47.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -201,7 +201,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 242.0, 40.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -290,9 +290,9 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 283.25, 360.0, 118.0, 22.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "signal", "signal" ],
+					"patching_rect" : [ 283.25, 360.0, 128.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -309,7 +309,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "groove~ #0-audio"
+					"text" : "groove~ #0-audio 2"
 				}
 
 			}
