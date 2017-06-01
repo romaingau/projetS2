@@ -2,8 +2,8 @@
 	"name" : "lecteurVidéo1",
 	"version" : 1,
 	"creationdate" : -717269629,
-	"modificationdate" : -717192187,
-	"viewrect" : [ 125.0, 288.0, 300.0, 500.0 ],
+	"modificationdate" : -715815042,
+	"viewrect" : [ 209.0, 297.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -11,6 +11,16 @@
 	"contents" : 	{
 		"patchers" : 		{
 			"moduleReceptionAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"translation.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"negatif.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -41,22 +51,22 @@
 				"local" : 1
 			}
 ,
-			"routerAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"effetDeplacement.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"analyseAudio.maxpat" : 			{
+			"assemblage.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"assemblage.maxpat" : 			{
+			"routerAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"analyseAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
